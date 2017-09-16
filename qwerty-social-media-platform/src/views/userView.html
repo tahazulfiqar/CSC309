@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/userView.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="scripts/userView.js"></script>
+    <title>Qwerty</title>
+</head>
+
+<body> 
+	<ul id="navigation_bar">
+		<li><a id="newsfeed">News Feed</a></li>
+		<li><a id="profile">My Profile</a></li>
+		<li><a id="post">Make Post</a></li>
+		<li><a id="signout">Sign Out</a></li>
+		<form id="search_container">
+			<button id="search_btn">Search</button>
+			<input type="text" id="search_bar">
+		</form>
+	</ul><br>
+
+	<div id="content_area">
+		<!-- Divider to store the news feed view -->
+		<div id="newsfeed_container">
+			<h1 id="greeting"></h1>
+			<h1><u>News Feed</u></h1>
+			<div id="posts_container"></div>
+		</div>
+
+		<!-- Divider to store the profile view for any user -->
+		<div id="profile_container">
+			<h1 id="name_title"></h1>
+
+			<div class="border">
+				<h3 id="rating_display"></h3>
+				<div id="rating_form">
+					<input type="radio" name="rate" id="radio_0"> 0                     	
+					<input type="radio" name="rate" id="radio_1"> 1		
+					<input type="radio" name="rate" id="radio_2"> 2		
+					<input type="radio" name="rate" id="radio_3"> 3		
+					<input type="radio" name="rate" id="radio_4"> 4		
+					<input type="radio" name="rate" id="radio_5"> 5<br>	
+					<button id="rate_btn">Rate</button>
+				</div><br>
+			</div>
+			<div class="border">
+				<h3 id="aboutme_title"><u>About Me</u></h3>
+				<h4 id="aboutme_content"></h4><br>
+			</div>
+			<div>
+				<h3 id="postwall_title"><u>Post Wall</u></h3>
+				<div id="postwall_container"></div>
+			</div>
+		</div>
+
+		<!-- Divider to store the view to make a post -->
+		<div id="post_container">
+			<h1>New Message</h1>
+
+			<div id="post_border">
+				<h3>To: </h3>
+				<select id="user_select"></select>
+				<h3>Message: </h3>
+				<textarea maxlength="200" rows="4" cols="75" id="msg_box"></textarea><br>
+				<button id="send_btn">Send</button>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

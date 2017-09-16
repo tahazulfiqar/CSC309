@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/adminView.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="scripts/adminView.js"></script>
+    <title>Qwerty</title>
+</head>
+
+<body>
+    <!-- UI to select a username -->
+	<h1>Admin View</h1>
+    <label><b>Usernames:</b></label>
+    <select id="username_select"></select><br>
+    <button id="get_user_btn">Get User</button><br>
+    <!-- UI to display the users information -->
+    <div id="info_container">
+        <h3>Password:</h3>
+        <input type="text" id="password_field">
+        <h3>First Name:</h3>
+        <input type="text" id="fname_field">
+        <h3>Last Name:</h3>
+        <input type="text" id="lname_field">
+        <h3>Aboutme:</h3>
+        <textarea rows="4" cols="75" id="aboutme_field"></textarea><br><br>
+        <button id="update_btn">Update User</button>
+        <button id="delete_btn">Delete User</button>
+        <button id="logout_btn">Logout</button>
+    </div>
+</body>
+</html>

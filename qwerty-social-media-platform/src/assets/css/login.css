@@ -1,0 +1,56 @@
+#registerSection {
+	background-color: #E6E6FA;
+}
+
+#title {
+	text-align: center;
+	font-size: 250%;
+}
+
+.imgDivider {
+	margin: 25px 0 15px 0;
+	text-align: center;
+}
+
+img.loginImage {
+	width: 20%;
+	border-radius: 50%;
+}
+
+/*--- Login view page styling ---*/
+form {
+	border: 4px solid #E6E6FA;
+}
+
+input {
+	width: 100%;
+	margin: 10px 0;
+	padding: 15px 20px;
+	display: inline-block;
+	border: 1px solid #bbb7c9;
+	box-sizing: border-box;
+}
+
+button {
+	cursor: pointer;
+    width: 100%;
+	background-color: #8BAABC;
+	color: white;
+    padding: 15px 20px;
+    margin: 10px 0;
+    border: none;
+    font-size: 150%;
+}
+
+
+#registerBtn {
+	background-color: #f44336;
+}
+
+#admin_btn {
+	background-color: orange;
+}
+
+.container {
+	padding: 15px;
+}

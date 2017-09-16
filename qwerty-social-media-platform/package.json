@@ -1,0 +1,16 @@
+{
+  "name": "Qwerty",
+  "description": "Qwerty social media application",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.11",
+    "mongoose": "^4.6.5",
+    "nodemon": "^1.11.0",
+    "cookie-parser": "^1.4.3",
+    "cookie-session": "^2.0.0-alpha.1",
+    "ejs": "~0.7.1"
+  }
+}

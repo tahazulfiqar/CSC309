@@ -1,0 +1,42 @@
+[
+    {
+        "username": "user1",
+        "pass": "pass1",
+        "fname": "Rod",
+        "lname": "Mazloomi",
+        "aboutme": "My name is Rod and I like playing computer games and eating fast food.",
+        "posts": [],
+        "avgRating": 0,
+        "numOfRatings": 0
+    },
+    {
+        "username": "user2",
+        "pass": "pass2",
+        "fname": "Andy",
+        "lname": "Lui",
+        "aboutme": "My name is Andy and this is my about me.",
+        "posts": [],
+        "avgRating": 0,
+        "numOfRatings": 0
+    },
+    {
+        "username": "user3",
+        "pass": "pass3",
+        "fname": "Taha",
+        "lname": "Zulfiqar",
+        "aboutme": "My name is Taha and this is my about me.",
+        "posts": [],
+        "avgRating": 0,
+        "numOfRatings": 0
+    },
+    {
+        "username": "user4",
+        "pass": "pass4",
+        "fname": "Arjun",
+        "lname": "Luthra",
+        "aboutme": "My name is Arjun and this is my about me.",
+        "posts": [],
+        "avgRating": 0,
+        "numOfRatings": 0
+    }
+]

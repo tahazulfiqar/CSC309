@@ -1,0 +1,39 @@
+/*--- Admin view page styling ---*/
+#update_btn {
+	display: none;
+}
+
+#delete_btn {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+	background-color: #8BAABC;
+	color: white;
+    padding: 15px 20px;
+    margin: 10px 0;
+    border: none;
+    font-size: 16px;
+}
+
+#info_container {
+	padding: 15px;
+	background-color: #E6E6FA;
+}
+
+input, select, label {
+    font-size: 20px;
+}
+
+#logout_btn {
+	background-color: blue;
+}
+
+#update_btn {
+	background-color: green;
+}
+
+#delete_btn {
+	background-color: #f44336;
+}

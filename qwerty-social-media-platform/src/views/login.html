@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/login.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="scripts/login.js"></script>
+    <title>Qwerty</title>
+</head>
+
+<body> 
+	<h1 id="title">Qwerty</h1>
+
+	<div class="imgDivider">
+	   <img src="images/image.jpg" class="loginImage">
+	</div>
+
+    <!-- Login html container -->
+	<form>
+	  	<div class="container">
+            <h1> Login </h1>
+		    <label><b>Username</b></label>
+		    <input type="text" placeholder="Enter Username" id="inputUsername" required>
+
+		    <label><b>Password</b></label>
+		    <input type="password" placeholder="Enter Password" id="inputPassword" required>
+
+		    <button type="button" id="submitBtn">Login</button>
+	  	</div>
+	</form>
+    <!-- Registering html container -->
+    <form id="signup" method="post">
+        <div class="container">
+            <h1> Sign-Up </h1>
+            <label id="firstName">
+                <span class="label"><b>First Name:</b></span>
+                <input type="text" id="first_name" name="first_name" placeholder="Enter Firstname" required></input>
+            </label>
+
+            <label id="lastName">
+                <span class="label"><b>Last Name:</b></span>
+                <input type="text" id="last_name" name="last_name" placeholder="Enter Lastname" required></input>
+            </label>
+            
+            <label id="userName">
+                <span class="label"><b>Username:</b></span>
+                <input type="text" id="user_name" name="user_name" placeholder="Enter Username" required></input>
+            </label>
+
+            <label id="passWord">
+                <span class="label"><b>Password:</b></span>
+                <input type="password" id="pw1" name="pw1" placeholder="Enter Password" required></input>
+            </label>
+
+            <label id="passWord2">
+                <span class="label"><b>Confirm Password:</b></span>
+                <input type="password" id="pw2" name="pw2" placeholder="Enter Password" required></input>
+            </label>
+
+            <label id="AboutMe">
+                <span class="label"><b>About Me:</b></span>
+                <input type="text" id="about_me" name="about_me" placeholder="Enter information about you" required></input>
+            </label>       
+
+            <button id="registerBtn" type="submit">Register</button>
+        </div>
+    </form>
+    <!-- Form for an admin to sign in through -->
+    <form>
+        <div class="container">
+            <h1>Admin</h1>
+            <label><b>Key Code:</b></label>
+            <input type="password" placeholder="Enter Key Code" id="input_keycode" required>
+            <button type="button" id="admin_btn">Enter</button>
+        </div>
+    </form>
+
+</body>
+</html>
